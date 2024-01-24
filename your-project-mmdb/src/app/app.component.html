@@ -1,0 +1,16 @@
+<div class="container">
+  <app-navigationbar></app-navigationbar>
+  <app-input></app-input>
+  <app-search-detail>
+    <h3>Search result for Avatar</h3>
+  </app-search-detail>
+  <div clasS="row">
+      <div clasS="col">
+        <app-search-skeleton [skeletons]="skeletonArr"></app-search-skeleton>
+        <app-search-resutls></app-search-resutls>
+        <app-search-notfound>
+          <h3 class="no-data-found">No Data Available, Search Again</h3>
+        </app-search-notfound>
+      </div>
+  </div>
+</div>

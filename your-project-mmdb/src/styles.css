@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+.card{
+    width: 200px;
+
+    box-shadow: 0px 5px 10px 0px rgb(0,0,0,0.5);
+    
+    max-height: 290px;
+    
+    min-height: 290px;
+}
+
+@keyframes skeleton-loading {
+
+    0% {
+    background-color: hsl(200, 20%, 80%);
+    }
+    100% {
+    background-color: hsl 200, 20%, 95;
+    }
+    
+}
+.skeleton {
+    animation: skeleton-loading 1s linear infinite alternate;    
+}
+
+.padding-top-bottom-7 {
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+}
+.no-data-found {
+    color: #969696;
+    font-size: 20px;
+}
